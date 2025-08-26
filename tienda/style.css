@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+main {
+  display: grid;
+  grid-template-areas: 
+    "novedades promos"
+    "novedades vendidos";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+h1 {
+  background: #ffffff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+section, footer {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  
+}
+
+.novedades { grid-area: novedades;}
+.promos { grid-area: promos; }
+.vendidos { grid-area: vendidos; }
+footer { grid-area: footer; margin: 20px; }
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 6px;
+
+}
+
+button:hover {
+  background: #0056b3;
+}
