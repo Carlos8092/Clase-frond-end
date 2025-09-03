@@ -50,7 +50,6 @@ button:hover {
   background: #0056b3;
 }
 
-/* --- RESPONSIVO PARA MÓVIL --- */
 @media (max-width: 768px) {
   main {
     grid-template-areas: 
@@ -62,7 +61,7 @@ button:hover {
   }
 
   section, footer {
-    margin: 10px 0; /* espacio entre bloques */
+    margin: 10px 0; 
   }
 
   img {
@@ -70,3 +69,4 @@ button:hover {
     height: auto;
   }
 }
+
