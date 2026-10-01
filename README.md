@@ -12,7 +12,7 @@ Lo más destacado del proyecto
 
 Tecnologías
 -HTML5
--CSS3 (Grid Layout, Media Queries)
+-CSS3 
 
 Cómo visualizarlo
 ¡Cero dependencias! Solo clona el repositorio o descarga los archivos y abre el archivo index.html en cualquier navegador web.
